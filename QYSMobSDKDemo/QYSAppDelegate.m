@@ -28,18 +28,18 @@
     QYSAdViewController *rootVC = [[QYSAdViewController alloc] init];
     self.nav = [[QYSBaseNavigationViewController alloc] initWithRootViewController:rootVC];
     self.nav.navigationBar.barStyle = UIBarStyleBlackOpaque;
-    self.nav.navigationBar.topItem.title = [NSString stringWithFormat:@"苏州纸影广告 ver %@",[QYSMobSDKConfig sdkVersion]];
+    self.nav.navigationBar.topItem.title = [NSString stringWithFormat:@"QYSMob ver %@",[QYSMobSDKConfig sdkVersion]];
     self.nav.navigationBar.translucent = NO;
     self.window.rootViewController = self.nav;
     [self.window makeKeyAndVisible];
     
     
     //SDK初始化
-    [QYSMobSDKConfig configWithAppId:kQuysMobSDKDemoAppId];
+//    [QYSMobSDKConfig configWithAppId:kQuysMobSDKDemoAppId];
     
     //加载开屏广告
-    [self loadTheSplashAd];
-    
+//    [self loadTheSplashAd];
+//    
     return YES;
 }
 

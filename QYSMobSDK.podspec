@@ -8,7 +8,7 @@ s.version          = '1.2.0'
 s.summary          = '广告插件'
 s.description      = "QYSMobSDK 广告插件"
 s.homepage         = 'https://github.com/qysmob/QYSMobSDK'
-#s.license          =  'MIT'
+s.license          =  {  :type => 'MIT', :file => 'LICENSE' }
 s.author           = { 'QYSMob' => 'qysmob@163.com' }
 s.platform = :ios, '9.0'
 
@@ -20,11 +20,9 @@ s.vendored_frameworks = 'QYSMob/QYSMobSDK.framework'
 s.resources = 'QYSMob/QYSBundle.bundle'
 
 # 需要的系统库
-s.frameworks= 'AppTrackingTransparency','Accelerate','AddressBook','AdSupport','AssetsLibrary' , 'AudioToolbox','AVFoundation','AVKit','CoreData','CoreGraphics','CoreImage','CoreLocation','CoreMedia','CoreMotion','CoreServices','CoreTelephony','CoreText','Foundation','ImageIO','JavaScriptCore','MapKit','MediaPlayer','MessageUI','MobileCoreServices','Photos','QuartzCore','QuickLook','SafariServices','Security','StoreKit','SystemConfiguration','UIKit','WebKit'
+s.frameworks = 'AppTrackingTransparency','Accelerate','AddressBook','AdSupport','AssetsLibrary' , 'AudioToolbox','AVFoundation','AVKit','CoreData','CoreGraphics','CoreImage','CoreLocation','CoreMedia','CoreMotion','CoreServices','CoreTelephony','CoreText','Foundation','ImageIO','JavaScriptCore','MapKit','MediaPlayer','MessageUI','MobileCoreServices','Photos','QuartzCore','QuickLook','SafariServices','Security','StoreKit','SystemConfiguration','UIKit','WebKit'
 s.libraries = 'bz2','c++','c++abi','iconv','resolv.9','resolv','sqlite3','z','xml2'
 
-
-s.requires_arc = true
 
 
 end
