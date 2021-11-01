@@ -12,13 +12,13 @@ s.homepage         = 'https://github.com/qysmob/QYSMobSDK'
 s.author           = { 'QYSMob' => 'qysmob@163.com' }
 s.platform = :ios, '9.0'
 
-s.source       = { :path => "./QYSMob" }
+#s.source       = { :path => "./QYSMob" }
 #s.source_files = ''
 s.vendored_frameworks = 'QYSMobSDK.framework','ThirdSDK/YKY/*.framework'
 #s.vendored_libraries = 'ThirdSDK/GDT/libGDTMobSDK.a'
 s.resources = 'QYSBundle.bundle'
 # 后续调整为读取远端压缩包 tag 为版本号
-#s.source       = { :git => "https://github.com/qysmob/QYSMobSDK.git", :tag => "v#{s.version}" }
+s.source       = { :git => "https://github.com/qysmob/QYSMobSDK.git", :tag => "v#{s.version}" }
 
 
 # 需要的系统库
