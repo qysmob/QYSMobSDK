@@ -14,8 +14,8 @@ s.platform = :ios, '9.0'
 
 
 # 后续调整为读取远端压缩包 tag 为版本号
-s.source       = { :git => "https://github.com/qysmob/QYSMobSDK.git", :tag => "v#{s.version}" }
-s.source_files = 'QYSMob/*'
+s.source = { :git => "https://github.com/qysmob/QYSMobSDK.git", :tag => s.version.to_s }
+#s.source_files = 'QYSMob/**'
 s.vendored_frameworks = 'QYSMob/QYSMobSDK.framework'
 s.resources = 'QYSMob/QYSBundle.bundle'
 
