@@ -1,0 +1,834 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE3A169F90D0D6151DF5BD48 /* Pods_QYSMobSDKDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C279F62EB22A5703499C7A01 /* Pods_QYSMobSDKDemo.framework */; };
+		FB00FF942689DD9400539AEA /* QYSMobSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB00FF8D2689DD9400539AEA /* QYSMobSDK.framework */; };
+		FB00FF952689DD9400539AEA /* QYSBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FB00FF8E2689DD9400539AEA /* QYSBundle.bundle */; };
+		FB34A764259499E4005A2F22 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FB34A763259499E4005A2F22 /* libresolv.tbd */; };
+		FB38E8FD2580750700E6D32C /* QYSAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB38E8FC2580750700E6D32C /* QYSAdViewController.m */; };
+		FB38E9292580778700E6D32C /* QYSToast.m in Sources */ = {isa = PBXBuildFile; fileRef = FB38E90F2580778700E6D32C /* QYSToast.m */; };
+		FB38E92A2580778700E6D32C /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = FB38E9102580778700E6D32C /* UIView+Toast.m */; };
+		FB38E92B2580778700E6D32C /* QYSBaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB38E9132580778700E6D32C /* QYSBaseNavigationViewController.m */; };
+		FB38E92C2580778700E6D32C /* QYSNativeExpressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB38E9162580778700E6D32C /* QYSNativeExpressViewController.m */; };
+		FB38E92D2580778700E6D32C /* QYSNativeExpressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB38E9182580778700E6D32C /* QYSNativeExpressViewController.xib */; };
+		FB38E92E2580778700E6D32C /* QYSBannerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB38E91A2580778700E6D32C /* QYSBannerViewController.xib */; };
+		FB38E92F2580778700E6D32C /* QYSBannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB38E91C2580778700E6D32C /* QYSBannerViewController.m */; };
+		FB38E9302580778700E6D32C /* QYSSplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB38E91E2580778700E6D32C /* QYSSplashViewController.m */; };
+		FB38E9312580778700E6D32C /* QYSSplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB38E9202580778700E6D32C /* QYSSplashViewController.xib */; };
+		FB38E9322580778700E6D32C /* QYSInterstitialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB38E9222580778700E6D32C /* QYSInterstitialViewController.xib */; };
+		FB38E9332580778700E6D32C /* QYSInterstitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB38E9232580778700E6D32C /* QYSInterstitialViewController.m */; };
+		FB38E9342580778700E6D32C /* QYSRewardVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB38E9262580778700E6D32C /* QYSRewardVideoViewController.m */; };
+		FB38E9352580778700E6D32C /* QYSRewardVideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB38E9272580778700E6D32C /* QYSRewardVideoViewController.xib */; };
+		FB38E93E25809EEB00E6D32C /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB38E93D25809EEB00E6D32C /* Accelerate.framework */; };
+		FB38E94025809EF400E6D32C /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB38E93F25809EF400E6D32C /* AdSupport.framework */; };
+		FB38E94225809EFC00E6D32C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB38E94125809EFC00E6D32C /* AVFoundation.framework */; };
+		FB38E94425809F0100E6D32C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB38E94325809F0100E6D32C /* CFNetwork.framework */; };
+		FB38E94625809F0800E6D32C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB38E94525809F0800E6D32C /* CoreGraphics.framework */; };
+		FB38E94825809F0E00E6D32C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB38E94725809F0E00E6D32C /* CoreLocation.framework */; };
+		FB38E94A25809F1400E6D32C /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB38E94925809F1400E6D32C /* CoreMedia.framework */; };
+		FB38E94C25809F1C00E6D32C /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB38E94B25809F1C00E6D32C /* CoreMotion.framework */; };
+		FB38E94E25809F2500E6D32C /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB38E94D25809F2500E6D32C /* CoreTelephony.framework */; };
+		FB38E95025809F2E00E6D32C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB38E94F25809F2E00E6D32C /* Foundation.framework */; };
+		FB38E95225809F3400E6D32C /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB38E95125809F3400E6D32C /* ImageIO.framework */; };
+		FB38E95425809F3A00E6D32C /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB38E95325809F3A00E6D32C /* MediaPlayer.framework */; };
+		FB38E95625809F4300E6D32C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB38E95525809F4300E6D32C /* QuartzCore.framework */; };
+		FB38E95825809F4800E6D32C /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB38E95725809F4800E6D32C /* SafariServices.framework */; };
+		FB38E95A25809F4E00E6D32C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB38E95925809F4E00E6D32C /* Security.framework */; };
+		FB38E95C25809F5500E6D32C /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB38E95B25809F5500E6D32C /* StoreKit.framework */; };
+		FB38E95E25809F5A00E6D32C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB38E95D25809F5A00E6D32C /* SystemConfiguration.framework */; };
+		FB38E96025809F5F00E6D32C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB38E95F25809F5F00E6D32C /* UIKit.framework */; };
+		FB38E96225809F6600E6D32C /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB38E96125809F6600E6D32C /* WebKit.framework */; };
+		FB38E96425809F6D00E6D32C /* libbz2.1.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FB38E96325809F6D00E6D32C /* libbz2.1.0.tbd */; };
+		FB38E96825809F7300E6D32C /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FB38E96725809F7300E6D32C /* libbz2.tbd */; };
+		FB38E96B25809F7A00E6D32C /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FB38E96A25809F7A00E6D32C /* libc++.tbd */; };
+		FB38E96E25809F8000E6D32C /* libresolv.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FB38E96D25809F8000E6D32C /* libresolv.9.tbd */; };
+		FB38E97125809F9300E6D32C /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FB38E97025809F9300E6D32C /* libsqlite3.tbd */; };
+		FB38E97425809F9900E6D32C /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FB38E97325809F9900E6D32C /* libxml2.tbd */; };
+		FB38E97725809F9F00E6D32C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FB38E97625809F9F00E6D32C /* libz.tbd */; };
+		FB38E97B25809FF500E6D32C /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB38E97A25809FF500E6D32C /* CoreServices.framework */; };
+		FB5FC10A257DD5F300A81E81 /* QYSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5FC109257DD5F300A81E81 /* QYSAppDelegate.m */; };
+		FB5FC113257DD5F300A81E81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5FC111257DD5F300A81E81 /* Main.storyboard */; };
+		FB5FC115257DD5F500A81E81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB5FC114257DD5F500A81E81 /* Assets.xcassets */; };
+		FB5FC118257DD5F500A81E81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5FC116257DD5F500A81E81 /* LaunchScreen.storyboard */; };
+		FB5FC11B257DD5F500A81E81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5FC11A257DD5F500A81E81 /* main.m */; };
+		FB82C6F126CE32A90056D63D /* KlevinAdSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB82C6F026CE32A90056D63D /* KlevinAdSDK.framework */; };
+		FB82C6F326CE34DF0056D63D /* AppTrackingTransparency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB82C6F226CE34DF0056D63D /* AppTrackingTransparency.framework */; };
+		FBD358F42680AF1C00E1D1D1 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD358F32680AF1C00E1D1D1 /* AddressBook.framework */; };
+		FBD358F62680AF2600E1D1D1 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD358F52680AF2600E1D1D1 /* AssetsLibrary.framework */; };
+		FBD358F82680AF2C00E1D1D1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD358F72680AF2C00E1D1D1 /* AudioToolbox.framework */; };
+		FBD358FA2680AF3600E1D1D1 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD358F92680AF3600E1D1D1 /* AVKit.framework */; };
+		FBD358FC2680AF3B00E1D1D1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD358FB2680AF3B00E1D1D1 /* CoreData.framework */; };
+		FBD358FE2680AF4500E1D1D1 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD358FD2680AF4500E1D1D1 /* CoreImage.framework */; };
+		FBD359002680AF6300E1D1D1 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD358FF2680AF6300E1D1D1 /* CoreText.framework */; };
+		FBD359022680AF7B00E1D1D1 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD359012680AF7B00E1D1D1 /* JavaScriptCore.framework */; };
+		FBD359042680AF7F00E1D1D1 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD359032680AF7F00E1D1D1 /* MapKit.framework */; };
+		FBD359062680AF8A00E1D1D1 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD359052680AF8A00E1D1D1 /* MessageUI.framework */; };
+		FBD359082680AF8F00E1D1D1 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD359072680AF8F00E1D1D1 /* Photos.framework */; };
+		FBD3590A2680AF9900E1D1D1 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD359092680AF9900E1D1D1 /* QuickLook.framework */; };
+		FBD3590C2680AFCE00E1D1D1 /* libc++abi.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD3590B2680AFCE00E1D1D1 /* libc++abi.tbd */; };
+		FBD3590F2680AFD500E1D1D1 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD3590E2680AFD500E1D1D1 /* libiconv.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FB88949A26C1308000DD8AA7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		031BD096B4FEBD7595AAFB58 /* Pods-QYSMobSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QYSMobSDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-QYSMobSDKDemo/Pods-QYSMobSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C279F62EB22A5703499C7A01 /* Pods_QYSMobSDKDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QYSMobSDKDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9680EF42452589C96B7092B /* Pods-QYSMobSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QYSMobSDKDemo.release.xcconfig"; path = "Target Support Files/Pods-QYSMobSDKDemo/Pods-QYSMobSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
+		FB00FF8D2689DD9400539AEA /* QYSMobSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QYSMobSDK.framework; sourceTree = "<group>"; };
+		FB00FF8E2689DD9400539AEA /* QYSBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = QYSBundle.bundle; sourceTree = "<group>"; };
+		FB34A763259499E4005A2F22 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		FB38E8FB2580750700E6D32C /* QYSAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYSAdViewController.h; sourceTree = "<group>"; };
+		FB38E8FC2580750700E6D32C /* QYSAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYSAdViewController.m; sourceTree = "<group>"; };
+		FB38E90D2580778700E6D32C /* QYSToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYSToast.h; sourceTree = "<group>"; };
+		FB38E90E2580778700E6D32C /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		FB38E90F2580778700E6D32C /* QYSToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYSToast.m; sourceTree = "<group>"; };
+		FB38E9102580778700E6D32C /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		FB38E9122580778700E6D32C /* QYSBaseNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYSBaseNavigationViewController.h; sourceTree = "<group>"; };
+		FB38E9132580778700E6D32C /* QYSBaseNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYSBaseNavigationViewController.m; sourceTree = "<group>"; };
+		FB38E9162580778700E6D32C /* QYSNativeExpressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYSNativeExpressViewController.m; sourceTree = "<group>"; };
+		FB38E9172580778700E6D32C /* QYSNativeExpressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYSNativeExpressViewController.h; sourceTree = "<group>"; };
+		FB38E9182580778700E6D32C /* QYSNativeExpressViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QYSNativeExpressViewController.xib; sourceTree = "<group>"; };
+		FB38E91A2580778700E6D32C /* QYSBannerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QYSBannerViewController.xib; sourceTree = "<group>"; };
+		FB38E91B2580778700E6D32C /* QYSBannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYSBannerViewController.h; sourceTree = "<group>"; };
+		FB38E91C2580778700E6D32C /* QYSBannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYSBannerViewController.m; sourceTree = "<group>"; };
+		FB38E91E2580778700E6D32C /* QYSSplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYSSplashViewController.m; sourceTree = "<group>"; };
+		FB38E91F2580778700E6D32C /* QYSSplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYSSplashViewController.h; sourceTree = "<group>"; };
+		FB38E9202580778700E6D32C /* QYSSplashViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QYSSplashViewController.xib; sourceTree = "<group>"; };
+		FB38E9222580778700E6D32C /* QYSInterstitialViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QYSInterstitialViewController.xib; sourceTree = "<group>"; };
+		FB38E9232580778700E6D32C /* QYSInterstitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYSInterstitialViewController.m; sourceTree = "<group>"; };
+		FB38E9242580778700E6D32C /* QYSInterstitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYSInterstitialViewController.h; sourceTree = "<group>"; };
+		FB38E9262580778700E6D32C /* QYSRewardVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYSRewardVideoViewController.m; sourceTree = "<group>"; };
+		FB38E9272580778700E6D32C /* QYSRewardVideoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QYSRewardVideoViewController.xib; sourceTree = "<group>"; };
+		FB38E9282580778700E6D32C /* QYSRewardVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYSRewardVideoViewController.h; sourceTree = "<group>"; };
+		FB38E93B25809ED100E6D32C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		FB38E93D25809EEB00E6D32C /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		FB38E93F25809EF400E6D32C /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		FB38E94125809EFC00E6D32C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FB38E94325809F0100E6D32C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		FB38E94525809F0800E6D32C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FB38E94725809F0E00E6D32C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FB38E94925809F1400E6D32C /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		FB38E94B25809F1C00E6D32C /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		FB38E94D25809F2500E6D32C /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		FB38E94F25809F2E00E6D32C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FB38E95125809F3400E6D32C /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		FB38E95325809F3A00E6D32C /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		FB38E95525809F4300E6D32C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FB38E95725809F4800E6D32C /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		FB38E95925809F4E00E6D32C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FB38E95B25809F5500E6D32C /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		FB38E95D25809F5A00E6D32C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FB38E95F25809F5F00E6D32C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FB38E96125809F6600E6D32C /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		FB38E96325809F6D00E6D32C /* libbz2.1.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.1.0.tbd; path = usr/lib/libbz2.1.0.tbd; sourceTree = SDKROOT; };
+		FB38E96725809F7300E6D32C /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		FB38E96A25809F7A00E6D32C /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		FB38E96D25809F8000E6D32C /* libresolv.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.9.tbd; path = usr/lib/libresolv.9.tbd; sourceTree = SDKROOT; };
+		FB38E97025809F9300E6D32C /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		FB38E97325809F9900E6D32C /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		FB38E97625809F9F00E6D32C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		FB38E97A25809FF500E6D32C /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		FB3B77B3257F6DF60010D139 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		FB3B77B4257F6DFB0010D139 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		FB5FC105257DD5F300A81E81 /* QYSMobSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QYSMobSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB5FC108257DD5F300A81E81 /* QYSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QYSAppDelegate.h; sourceTree = "<group>"; };
+		FB5FC109257DD5F300A81E81 /* QYSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QYSAppDelegate.m; sourceTree = "<group>"; };
+		FB5FC112257DD5F300A81E81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB5FC114257DD5F500A81E81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB5FC117257DD5F500A81E81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB5FC119257DD5F500A81E81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB5FC11A257DD5F500A81E81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB82C6F026CE32A90056D63D /* KlevinAdSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KlevinAdSDK.framework; sourceTree = "<group>"; };
+		FB82C6F226CE34DF0056D63D /* AppTrackingTransparency.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppTrackingTransparency.framework; path = System/Library/Frameworks/AppTrackingTransparency.framework; sourceTree = SDKROOT; };
+		FBB3FAA3257DF72800820C07 /* PrefixHeader_QYSMobDemo.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader_QYSMobDemo.pch; sourceTree = "<group>"; };
+		FBD358F32680AF1C00E1D1D1 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		FBD358F52680AF2600E1D1D1 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		FBD358F72680AF2C00E1D1D1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		FBD358F92680AF3600E1D1D1 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		FBD358FB2680AF3B00E1D1D1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FBD358FD2680AF4500E1D1D1 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		FBD358FF2680AF6300E1D1D1 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		FBD359012680AF7B00E1D1D1 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		FBD359032680AF7F00E1D1D1 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FBD359052680AF8A00E1D1D1 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		FBD359072680AF8F00E1D1D1 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		FBD359092680AF9900E1D1D1 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		FBD3590B2680AFCE00E1D1D1 /* libc++abi.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++abi.tbd"; path = "usr/lib/libc++abi.tbd"; sourceTree = SDKROOT; };
+		FBD3590E2680AFD500E1D1D1 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB5FC102257DD5F300A81E81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB82C6F326CE34DF0056D63D /* AppTrackingTransparency.framework in Frameworks */,
+				FB38E97725809F9F00E6D32C /* libz.tbd in Frameworks */,
+				FB38E97425809F9900E6D32C /* libxml2.tbd in Frameworks */,
+				FB38E97125809F9300E6D32C /* libsqlite3.tbd in Frameworks */,
+				FB34A764259499E4005A2F22 /* libresolv.tbd in Frameworks */,
+				FB38E96E25809F8000E6D32C /* libresolv.9.tbd in Frameworks */,
+				FBD3590F2680AFD500E1D1D1 /* libiconv.tbd in Frameworks */,
+				FBD3590C2680AFCE00E1D1D1 /* libc++abi.tbd in Frameworks */,
+				FB38E96B25809F7A00E6D32C /* libc++.tbd in Frameworks */,
+				FB38E96825809F7300E6D32C /* libbz2.tbd in Frameworks */,
+				FB38E96225809F6600E6D32C /* WebKit.framework in Frameworks */,
+				FB38E96025809F5F00E6D32C /* UIKit.framework in Frameworks */,
+				FB38E95E25809F5A00E6D32C /* SystemConfiguration.framework in Frameworks */,
+				FB38E95C25809F5500E6D32C /* StoreKit.framework in Frameworks */,
+				FB38E95A25809F4E00E6D32C /* Security.framework in Frameworks */,
+				FB38E95825809F4800E6D32C /* SafariServices.framework in Frameworks */,
+				FBD3590A2680AF9900E1D1D1 /* QuickLook.framework in Frameworks */,
+				FB38E95625809F4300E6D32C /* QuartzCore.framework in Frameworks */,
+				FB82C6F126CE32A90056D63D /* KlevinAdSDK.framework in Frameworks */,
+				FBD359082680AF8F00E1D1D1 /* Photos.framework in Frameworks */,
+				FBD359062680AF8A00E1D1D1 /* MessageUI.framework in Frameworks */,
+				FB38E95425809F3A00E6D32C /* MediaPlayer.framework in Frameworks */,
+				FBD359042680AF7F00E1D1D1 /* MapKit.framework in Frameworks */,
+				FBD359022680AF7B00E1D1D1 /* JavaScriptCore.framework in Frameworks */,
+				FB38E95225809F3400E6D32C /* ImageIO.framework in Frameworks */,
+				FB38E95025809F2E00E6D32C /* Foundation.framework in Frameworks */,
+				FBD359002680AF6300E1D1D1 /* CoreText.framework in Frameworks */,
+				FB38E94E25809F2500E6D32C /* CoreTelephony.framework in Frameworks */,
+				FB38E97B25809FF500E6D32C /* CoreServices.framework in Frameworks */,
+				FB38E94C25809F1C00E6D32C /* CoreMotion.framework in Frameworks */,
+				FB38E94A25809F1400E6D32C /* CoreMedia.framework in Frameworks */,
+				FB38E94825809F0E00E6D32C /* CoreLocation.framework in Frameworks */,
+				FBD358FE2680AF4500E1D1D1 /* CoreImage.framework in Frameworks */,
+				FB38E94625809F0800E6D32C /* CoreGraphics.framework in Frameworks */,
+				FBD358FC2680AF3B00E1D1D1 /* CoreData.framework in Frameworks */,
+				FBD358FA2680AF3600E1D1D1 /* AVKit.framework in Frameworks */,
+				FB38E94225809EFC00E6D32C /* AVFoundation.framework in Frameworks */,
+				FB00FF942689DD9400539AEA /* QYSMobSDK.framework in Frameworks */,
+				FBD358F82680AF2C00E1D1D1 /* AudioToolbox.framework in Frameworks */,
+				FBD358F62680AF2600E1D1D1 /* AssetsLibrary.framework in Frameworks */,
+				FB38E94025809EF400E6D32C /* AdSupport.framework in Frameworks */,
+				FBD358F42680AF1C00E1D1D1 /* AddressBook.framework in Frameworks */,
+				FB38E93E25809EEB00E6D32C /* Accelerate.framework in Frameworks */,
+				FB38E96425809F6D00E6D32C /* libbz2.1.0.tbd in Frameworks */,
+				FB38E94425809F0100E6D32C /* CFNetwork.framework in Frameworks */,
+				BE3A169F90D0D6151DF5BD48 /* Pods_QYSMobSDKDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86BE4BDA0183484FAC3AE2E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				031BD096B4FEBD7595AAFB58 /* Pods-QYSMobSDKDemo.debug.xcconfig */,
+				C9680EF42452589C96B7092B /* Pods-QYSMobSDKDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FB00FF632689DD9400539AEA /* QYSMob */ = {
+			isa = PBXGroup;
+			children = (
+				FB00FF642689DD9400539AEA /* ThirdSDK */,
+				FB00FF8D2689DD9400539AEA /* QYSMobSDK.framework */,
+				FB00FF8E2689DD9400539AEA /* QYSBundle.bundle */,
+			);
+			path = QYSMob;
+			sourceTree = "<group>";
+		};
+		FB00FF642689DD9400539AEA /* ThirdSDK */ = {
+			isa = PBXGroup;
+			children = (
+				FB82C6EF26CE32A90056D63D /* YKY */,
+			);
+			path = ThirdSDK;
+			sourceTree = "<group>";
+		};
+		FB38E90A2580778700E6D32C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FB38E90B2580778700E6D32C /* Tools */,
+				FB38E9112580778700E6D32C /* QYSBase */,
+				FB38E9142580778700E6D32C /* QYSAds */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FB38E90B2580778700E6D32C /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				FB38E90C2580778700E6D32C /* Toast */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		FB38E90C2580778700E6D32C /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				FB38E90D2580778700E6D32C /* QYSToast.h */,
+				FB38E90F2580778700E6D32C /* QYSToast.m */,
+				FB38E90E2580778700E6D32C /* UIView+Toast.h */,
+				FB38E9102580778700E6D32C /* UIView+Toast.m */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		FB38E9112580778700E6D32C /* QYSBase */ = {
+			isa = PBXGroup;
+			children = (
+				FB38E9122580778700E6D32C /* QYSBaseNavigationViewController.h */,
+				FB38E9132580778700E6D32C /* QYSBaseNavigationViewController.m */,
+			);
+			path = QYSBase;
+			sourceTree = "<group>";
+		};
+		FB38E9142580778700E6D32C /* QYSAds */ = {
+			isa = PBXGroup;
+			children = (
+				FB38E91D2580778700E6D32C /* SplashAd */,
+				FB38E9192580778700E6D32C /* BannerAd */,
+				FB38E9212580778700E6D32C /* InterstitialAd */,
+				FB38E9152580778700E6D32C /* NativeExpressAd */,
+				FB38E9252580778700E6D32C /* RewardVideoAd */,
+			);
+			path = QYSAds;
+			sourceTree = "<group>";
+		};
+		FB38E9152580778700E6D32C /* NativeExpressAd */ = {
+			isa = PBXGroup;
+			children = (
+				FB38E9172580778700E6D32C /* QYSNativeExpressViewController.h */,
+				FB38E9162580778700E6D32C /* QYSNativeExpressViewController.m */,
+				FB38E9182580778700E6D32C /* QYSNativeExpressViewController.xib */,
+			);
+			path = NativeExpressAd;
+			sourceTree = "<group>";
+		};
+		FB38E9192580778700E6D32C /* BannerAd */ = {
+			isa = PBXGroup;
+			children = (
+				FB38E91B2580778700E6D32C /* QYSBannerViewController.h */,
+				FB38E91C2580778700E6D32C /* QYSBannerViewController.m */,
+				FB38E91A2580778700E6D32C /* QYSBannerViewController.xib */,
+			);
+			path = BannerAd;
+			sourceTree = "<group>";
+		};
+		FB38E91D2580778700E6D32C /* SplashAd */ = {
+			isa = PBXGroup;
+			children = (
+				FB38E91F2580778700E6D32C /* QYSSplashViewController.h */,
+				FB38E91E2580778700E6D32C /* QYSSplashViewController.m */,
+				FB38E9202580778700E6D32C /* QYSSplashViewController.xib */,
+			);
+			path = SplashAd;
+			sourceTree = "<group>";
+		};
+		FB38E9212580778700E6D32C /* InterstitialAd */ = {
+			isa = PBXGroup;
+			children = (
+				FB38E9242580778700E6D32C /* QYSInterstitialViewController.h */,
+				FB38E9232580778700E6D32C /* QYSInterstitialViewController.m */,
+				FB38E9222580778700E6D32C /* QYSInterstitialViewController.xib */,
+			);
+			path = InterstitialAd;
+			sourceTree = "<group>";
+		};
+		FB38E9252580778700E6D32C /* RewardVideoAd */ = {
+			isa = PBXGroup;
+			children = (
+				FB38E9282580778700E6D32C /* QYSRewardVideoViewController.h */,
+				FB38E9262580778700E6D32C /* QYSRewardVideoViewController.m */,
+				FB38E9272580778700E6D32C /* QYSRewardVideoViewController.xib */,
+			);
+			path = RewardVideoAd;
+			sourceTree = "<group>";
+		};
+		FB38E93A25809ED000E6D32C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB82C6F226CE34DF0056D63D /* AppTrackingTransparency.framework */,
+				FB38E93D25809EEB00E6D32C /* Accelerate.framework */,
+				FBD358F32680AF1C00E1D1D1 /* AddressBook.framework */,
+				FB38E93F25809EF400E6D32C /* AdSupport.framework */,
+				FBD358F52680AF2600E1D1D1 /* AssetsLibrary.framework */,
+				FBD358F72680AF2C00E1D1D1 /* AudioToolbox.framework */,
+				FB38E94125809EFC00E6D32C /* AVFoundation.framework */,
+				FBD358F92680AF3600E1D1D1 /* AVKit.framework */,
+				FB38E94325809F0100E6D32C /* CFNetwork.framework */,
+				FBD358FB2680AF3B00E1D1D1 /* CoreData.framework */,
+				FB38E94525809F0800E6D32C /* CoreGraphics.framework */,
+				FBD358FD2680AF4500E1D1D1 /* CoreImage.framework */,
+				FB38E94725809F0E00E6D32C /* CoreLocation.framework */,
+				FB38E94925809F1400E6D32C /* CoreMedia.framework */,
+				FB38E94B25809F1C00E6D32C /* CoreMotion.framework */,
+				FB38E97A25809FF500E6D32C /* CoreServices.framework */,
+				FB38E94D25809F2500E6D32C /* CoreTelephony.framework */,
+				FBD358FF2680AF6300E1D1D1 /* CoreText.framework */,
+				FB38E94F25809F2E00E6D32C /* Foundation.framework */,
+				FB38E95125809F3400E6D32C /* ImageIO.framework */,
+				FBD359012680AF7B00E1D1D1 /* JavaScriptCore.framework */,
+				FB38E96325809F6D00E6D32C /* libbz2.1.0.tbd */,
+				FB38E96725809F7300E6D32C /* libbz2.tbd */,
+				FB38E96A25809F7A00E6D32C /* libc++.tbd */,
+				FBD3590B2680AFCE00E1D1D1 /* libc++abi.tbd */,
+				FBD3590E2680AFD500E1D1D1 /* libiconv.tbd */,
+				FB38E96D25809F8000E6D32C /* libresolv.9.tbd */,
+				FB34A763259499E4005A2F22 /* libresolv.tbd */,
+				FB38E97025809F9300E6D32C /* libsqlite3.tbd */,
+				FB38E97325809F9900E6D32C /* libxml2.tbd */,
+				FB38E97625809F9F00E6D32C /* libz.tbd */,
+				FBD359032680AF7F00E1D1D1 /* MapKit.framework */,
+				FB38E95325809F3A00E6D32C /* MediaPlayer.framework */,
+				FBD359052680AF8A00E1D1D1 /* MessageUI.framework */,
+				FB38E93B25809ED100E6D32C /* MobileCoreServices.framework */,
+				FBD359072680AF8F00E1D1D1 /* Photos.framework */,
+				FB38E95525809F4300E6D32C /* QuartzCore.framework */,
+				FBD359092680AF9900E1D1D1 /* QuickLook.framework */,
+				FB38E95725809F4800E6D32C /* SafariServices.framework */,
+				FB38E95925809F4E00E6D32C /* Security.framework */,
+				FB38E95B25809F5500E6D32C /* StoreKit.framework */,
+				FB38E95D25809F5A00E6D32C /* SystemConfiguration.framework */,
+				FB38E95F25809F5F00E6D32C /* UIKit.framework */,
+				FB38E96125809F6600E6D32C /* WebKit.framework */,
+				C279F62EB22A5703499C7A01 /* Pods_QYSMobSDKDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB5FC0FC257DD5F300A81E81 = {
+			isa = PBXGroup;
+			children = (
+				FB5FC107257DD5F300A81E81 /* QYSMobSDKDemo */,
+				FB5FC106257DD5F300A81E81 /* Products */,
+				FB38E93A25809ED000E6D32C /* Frameworks */,
+				86BE4BDA0183484FAC3AE2E7 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		FB5FC106257DD5F300A81E81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB5FC105257DD5F300A81E81 /* QYSMobSDKDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB5FC107257DD5F300A81E81 /* QYSMobSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FB00FF632689DD9400539AEA /* QYSMob */,
+				FB38E90A2580778700E6D32C /* Classes */,
+				FB5FC108257DD5F300A81E81 /* QYSAppDelegate.h */,
+				FB5FC109257DD5F300A81E81 /* QYSAppDelegate.m */,
+				FB38E8FB2580750700E6D32C /* QYSAdViewController.h */,
+				FB38E8FC2580750700E6D32C /* QYSAdViewController.m */,
+				FBB3FAA3257DF72800820C07 /* PrefixHeader_QYSMobDemo.pch */,
+				FB5FC111257DD5F300A81E81 /* Main.storyboard */,
+				FB5FC114257DD5F500A81E81 /* Assets.xcassets */,
+				FB5FC116257DD5F500A81E81 /* LaunchScreen.storyboard */,
+				FB5FC119257DD5F500A81E81 /* Info.plist */,
+				FB5FC11A257DD5F500A81E81 /* main.m */,
+			);
+			path = QYSMobSDKDemo;
+			sourceTree = "<group>";
+		};
+		FB82C6EF26CE32A90056D63D /* YKY */ = {
+			isa = PBXGroup;
+			children = (
+				FB82C6F026CE32A90056D63D /* KlevinAdSDK.framework */,
+			);
+			path = YKY;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB5FC104257DD5F300A81E81 /* QYSMobSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB5FC11E257DD5F500A81E81 /* Build configuration list for PBXNativeTarget "QYSMobSDKDemo" */;
+			buildPhases = (
+				B35645B37F065814E9531407 /* [CP] Check Pods Manifest.lock */,
+				FB5FC101257DD5F300A81E81 /* Sources */,
+				FB5FC102257DD5F300A81E81 /* Frameworks */,
+				FB5FC103257DD5F300A81E81 /* Resources */,
+				FB88949A26C1308000DD8AA7 /* Embed Frameworks */,
+				FD4DCBBCF7E0E8812038A9CA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QYSMobSDKDemo;
+			productName = QYSMobSDKDemo;
+			productReference = FB5FC105257DD5F300A81E81 /* QYSMobSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB5FC0FD257DD5F300A81E81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = QYS;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					FB5FC104257DD5F300A81E81 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = FB5FC100257DD5F300A81E81 /* Build configuration list for PBXProject "QYSMobSDKDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = FB5FC0FC257DD5F300A81E81;
+			productRefGroup = FB5FC106257DD5F300A81E81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB5FC104257DD5F300A81E81 /* QYSMobSDKDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB5FC103257DD5F300A81E81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB5FC118257DD5F500A81E81 /* LaunchScreen.storyboard in Resources */,
+				FB00FF952689DD9400539AEA /* QYSBundle.bundle in Resources */,
+				FB5FC115257DD5F500A81E81 /* Assets.xcassets in Resources */,
+				FB38E9322580778700E6D32C /* QYSInterstitialViewController.xib in Resources */,
+				FB5FC113257DD5F300A81E81 /* Main.storyboard in Resources */,
+				FB38E92E2580778700E6D32C /* QYSBannerViewController.xib in Resources */,
+				FB38E9312580778700E6D32C /* QYSSplashViewController.xib in Resources */,
+				FB38E92D2580778700E6D32C /* QYSNativeExpressViewController.xib in Resources */,
+				FB38E9352580778700E6D32C /* QYSRewardVideoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B35645B37F065814E9531407 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QYSMobSDKDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD4DCBBCF7E0E8812038A9CA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QYSMobSDKDemo/Pods-QYSMobSDKDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QYSMobSDKDemo/Pods-QYSMobSDKDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QYSMobSDKDemo/Pods-QYSMobSDKDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB5FC101257DD5F300A81E81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB38E9332580778700E6D32C /* QYSInterstitialViewController.m in Sources */,
+				FB5FC10A257DD5F300A81E81 /* QYSAppDelegate.m in Sources */,
+				FB38E9292580778700E6D32C /* QYSToast.m in Sources */,
+				FB38E8FD2580750700E6D32C /* QYSAdViewController.m in Sources */,
+				FB38E92C2580778700E6D32C /* QYSNativeExpressViewController.m in Sources */,
+				FB38E9342580778700E6D32C /* QYSRewardVideoViewController.m in Sources */,
+				FB38E92B2580778700E6D32C /* QYSBaseNavigationViewController.m in Sources */,
+				FB38E9302580778700E6D32C /* QYSSplashViewController.m in Sources */,
+				FB38E92A2580778700E6D32C /* UIView+Toast.m in Sources */,
+				FB38E92F2580778700E6D32C /* QYSBannerViewController.m in Sources */,
+				FB5FC11B257DD5F500A81E81 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FB5FC111257DD5F300A81E81 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB5FC112257DD5F300A81E81 /* Base */,
+				FB3B77B3257F6DF60010D139 /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB5FC116257DD5F500A81E81 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB5FC117257DD5F500A81E81 /* Base */,
+				FB3B77B4257F6DFB0010D139 /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB5FC11C257DD5F500A81E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FB5FC11D257DD5F500A81E81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB5FC11F257DD5F500A81E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 031BD096B4FEBD7595AAFB58 /* Pods-QYSMobSDKDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES_ERROR;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ACZGY7VC8W;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_ARCHS = "EXCLUDED_ARCHS__EFFECTIVE_PLATFORM_SUFFIX_simulator__NATIVE_ARCH_64_BIT_x86_64=arm64 arm64e armv6 armv8 EXCLUDED_ARCHS=$(inherited) $(EXCLUDED_ARCHS__EFFECTIVE_PLATFORM_SUFFIX_$(EFFECTIVE_PLATFORM_SUFFIX)__NATIVE_ARCH_64_BIT_$(NATIVE_ARCH_64_BIT))";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/QYSMobSDKDemo/QYSMob",
+					"$(PROJECT_DIR)/QYSMobSDKDemo/QYSMob/ThirdSDK/YKY",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/$(PRODUCT_NAME)/PrefixHeader_QYSMobDemo.pch";
+				INFOPLIST_FILE = QYSMobSDKDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MARKETING_VERSION = 1.2.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-l\"c++\"",
+					"-l\"c++abi\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.quys.FingertipWeather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FB5FC120257DD5F500A81E81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9680EF42452589C96B7092B /* Pods-QYSMobSDKDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES_ERROR;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ACZGY7VC8W;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_ARCHS = "EXCLUDED_ARCHS__EFFECTIVE_PLATFORM_SUFFIX_simulator__NATIVE_ARCH_64_BIT_x86_64=arm64 arm64e armv6 armv7 armv7s armv8 EXCLUDED_ARCHS=$(inherited) $(EXCLUDED_ARCHS__EFFECTIVE_PLATFORM_SUFFIX_$(EFFECTIVE_PLATFORM_SUFFIX)__NATIVE_ARCH_64_BIT_$(NATIVE_ARCH_64_BIT))";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/QYSMobSDKDemo/QYSMob",
+					"$(PROJECT_DIR)/QYSMobSDKDemo/QYSMob/ThirdSDK/YKY",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/$(PRODUCT_NAME)/PrefixHeader_QYSMobDemo.pch";
+				INFOPLIST_FILE = QYSMobSDKDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MARKETING_VERSION = 1.2.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-l\"c++\"",
+					"-l\"c++abi\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.quys.FingertipWeather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB5FC100257DD5F300A81E81 /* Build configuration list for PBXProject "QYSMobSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB5FC11C257DD5F500A81E81 /* Debug */,
+				FB5FC11D257DD5F500A81E81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB5FC11E257DD5F500A81E81 /* Build configuration list for PBXNativeTarget "QYSMobSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB5FC11F257DD5F500A81E81 /* Debug */,
+				FB5FC120257DD5F500A81E81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB5FC0FD257DD5F300A81E81 /* Project object */;
+}

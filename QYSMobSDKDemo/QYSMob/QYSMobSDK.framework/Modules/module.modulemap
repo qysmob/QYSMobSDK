@@ -1,0 +1,6 @@
+framework module QYSMobSDK {
+  umbrella header "QYSMobSDK.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,67 @@
+//
+//  PrefixHeader_QYSMobDemo.pch
+//  QYSMobSDKDemo
+//
+//  Created by quys on 2020/12/7.
+//
+
+#ifndef PrefixHeader_QYSMobDemo_pch
+#define PrefixHeader_QYSMobDemo_pch
+
+#import "QYSToast.h"
+
+#pragma mark - 屏幕宽高
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight  [UIScreen mainScreen].bounds.size.height
+
+#define kScale_W(w) ((kScreenWidth)/375) * (w)
+#define kScale_H(h) (kScreenHeight/667) * (h)
+
+#pragma mark - 颜色
+//RGB格式
+#define kRGB(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+//RGBA格式
+#define kRGBA(r, g, b, a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
+//随机颜色
+#define kRandomColor [UIColor colorWithRed:arc4random_uniform(256)/255.0 green:arc4random_uniform(256)/255.0 blue:arc4random_uniform(256)/255.0 alpha:1.0]
+//16进制颜色
+#define kRGB16(rgbValue,alphaValue) \
+[UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16)) / 255.0 \
+                green:((float)((rgbValue & 0xFF00) >> 8)) / 255.0 \
+                blue :((float)(rgbValue & 0xFF)) / 255.0 alpha:alphaValue]
+#define kColorLine [UIColor colorWithRed:0xd9/255.0f green:0xd9/255.0f blue:0xd9/255.0f alpha:1]
+
+//Title颜色
+#define kColorTitle kRGB16(0x232323,1)
+//背景色
+#define kColorBackgroundColor  kRGB16(0xF5F5F5,1)
+//主题色
+#define kColorTheme kRGB16(0xDD9A38,1)
+//不可点击背景
+#define kColorClickDisEnable kRGB16(0xA9A9A9,1)
+//白色
+#define kColorWhite kRGB16(0xF8F8FF,1)
+
+#pragma mark -字体样式
+#define kBoldFont(x) [UIFont boldSystemFontOfSize:x]
+#define kFont(x) [UIFont systemFontOfSize:x]
+
+#define QuysWeakObj(type) __weak typeof(type) weak##type = type;
+#define QuysStrongObj(type) __strong typeof(type) type = weak##type;
+
+#pragma mark -- APPID  --
+static NSString *kQuysMobSDKDemoAppId = @"I001003";
+
+#pragma mark -- AD_PLACEMENT_ID  --
+static NSString *SPLASH_PLACEMENT_ID_STR = @"KP001012";
+
+static NSString *BANNER_PLACEMENT_ID_STR = @"HF001014";
+
+static NSString *INTERSTITIAL_PLACEMENT_ID_STR = @"CP001012";
+
+static NSString *NATIVEEXPRESS_PLACEMENT_ID_STR = @"XX001013";
+
+static NSString *REWARDVIDEO_PLACEMENT_ID_STR = @"JL001017";
+
+
+#endif /* PrefixHeader_QYSMobDemo_pch */
