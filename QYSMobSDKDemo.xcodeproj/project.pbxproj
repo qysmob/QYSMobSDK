@@ -3,25 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BE3A169F90D0D6151DF5BD48 /* Pods_QYSMobSDKDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C279F62EB22A5703499C7A01 /* Pods_QYSMobSDKDemo.framework */; };
+		BCFB0DACD86FC833810DCB77 /* Pods_QYSMobSDKDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44BA1ED24436DFEC33CC4DBA /* Pods_QYSMobSDKDemo.framework */; };
 		FB38E8FD2580750700E6D32C /* QYSAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB38E8FC2580750700E6D32C /* QYSAdViewController.m */; };
 		FB38E9292580778700E6D32C /* QYSToast.m in Sources */ = {isa = PBXBuildFile; fileRef = FB38E90F2580778700E6D32C /* QYSToast.m */; };
 		FB38E92A2580778700E6D32C /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = FB38E9102580778700E6D32C /* UIView+Toast.m */; };
 		FB38E92B2580778700E6D32C /* QYSBaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB38E9132580778700E6D32C /* QYSBaseNavigationViewController.m */; };
-		FB38E92C2580778700E6D32C /* QYSNativeExpressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB38E9162580778700E6D32C /* QYSNativeExpressViewController.m */; };
-		FB38E92D2580778700E6D32C /* QYSNativeExpressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB38E9182580778700E6D32C /* QYSNativeExpressViewController.xib */; };
-		FB38E92E2580778700E6D32C /* QYSBannerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB38E91A2580778700E6D32C /* QYSBannerViewController.xib */; };
-		FB38E92F2580778700E6D32C /* QYSBannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB38E91C2580778700E6D32C /* QYSBannerViewController.m */; };
-		FB38E9302580778700E6D32C /* QYSSplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB38E91E2580778700E6D32C /* QYSSplashViewController.m */; };
-		FB38E9312580778700E6D32C /* QYSSplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB38E9202580778700E6D32C /* QYSSplashViewController.xib */; };
-		FB38E9322580778700E6D32C /* QYSInterstitialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB38E9222580778700E6D32C /* QYSInterstitialViewController.xib */; };
-		FB38E9332580778700E6D32C /* QYSInterstitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB38E9232580778700E6D32C /* QYSInterstitialViewController.m */; };
-		FB38E9342580778700E6D32C /* QYSRewardVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB38E9262580778700E6D32C /* QYSRewardVideoViewController.m */; };
-		FB38E9352580778700E6D32C /* QYSRewardVideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB38E9272580778700E6D32C /* QYSRewardVideoViewController.xib */; };
 		FB5FC10A257DD5F300A81E81 /* QYSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5FC109257DD5F300A81E81 /* QYSAppDelegate.m */; };
 		FB5FC113257DD5F300A81E81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5FC111257DD5F300A81E81 /* Main.storyboard */; };
 		FB5FC115257DD5F500A81E81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB5FC114257DD5F500A81E81 /* Assets.xcassets */; };
@@ -43,9 +33,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		031BD096B4FEBD7595AAFB58 /* Pods-QYSMobSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QYSMobSDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-QYSMobSDKDemo/Pods-QYSMobSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		C279F62EB22A5703499C7A01 /* Pods_QYSMobSDKDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QYSMobSDKDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9680EF42452589C96B7092B /* Pods-QYSMobSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QYSMobSDKDemo.release.xcconfig"; path = "Target Support Files/Pods-QYSMobSDKDemo/Pods-QYSMobSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
+		44BA1ED24436DFEC33CC4DBA /* Pods_QYSMobSDKDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QYSMobSDKDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCF91C2077012DC663CFADA3 /* Pods-QYSMobSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QYSMobSDKDemo.release.xcconfig"; path = "Target Support Files/Pods-QYSMobSDKDemo/Pods-QYSMobSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F7A3EA3DB171D6BB0F93A489 /* Pods-QYSMobSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QYSMobSDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-QYSMobSDKDemo/Pods-QYSMobSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		FB38E8FB2580750700E6D32C /* QYSAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYSAdViewController.h; sourceTree = "<group>"; };
 		FB38E8FC2580750700E6D32C /* QYSAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYSAdViewController.m; sourceTree = "<group>"; };
 		FB38E90D2580778700E6D32C /* QYSToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYSToast.h; sourceTree = "<group>"; };
@@ -54,21 +44,6 @@
 		FB38E9102580778700E6D32C /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
 		FB38E9122580778700E6D32C /* QYSBaseNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYSBaseNavigationViewController.h; sourceTree = "<group>"; };
 		FB38E9132580778700E6D32C /* QYSBaseNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYSBaseNavigationViewController.m; sourceTree = "<group>"; };
-		FB38E9162580778700E6D32C /* QYSNativeExpressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYSNativeExpressViewController.m; sourceTree = "<group>"; };
-		FB38E9172580778700E6D32C /* QYSNativeExpressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYSNativeExpressViewController.h; sourceTree = "<group>"; };
-		FB38E9182580778700E6D32C /* QYSNativeExpressViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QYSNativeExpressViewController.xib; sourceTree = "<group>"; };
-		FB38E91A2580778700E6D32C /* QYSBannerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QYSBannerViewController.xib; sourceTree = "<group>"; };
-		FB38E91B2580778700E6D32C /* QYSBannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYSBannerViewController.h; sourceTree = "<group>"; };
-		FB38E91C2580778700E6D32C /* QYSBannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYSBannerViewController.m; sourceTree = "<group>"; };
-		FB38E91E2580778700E6D32C /* QYSSplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYSSplashViewController.m; sourceTree = "<group>"; };
-		FB38E91F2580778700E6D32C /* QYSSplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYSSplashViewController.h; sourceTree = "<group>"; };
-		FB38E9202580778700E6D32C /* QYSSplashViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QYSSplashViewController.xib; sourceTree = "<group>"; };
-		FB38E9222580778700E6D32C /* QYSInterstitialViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QYSInterstitialViewController.xib; sourceTree = "<group>"; };
-		FB38E9232580778700E6D32C /* QYSInterstitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYSInterstitialViewController.m; sourceTree = "<group>"; };
-		FB38E9242580778700E6D32C /* QYSInterstitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYSInterstitialViewController.h; sourceTree = "<group>"; };
-		FB38E9262580778700E6D32C /* QYSRewardVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYSRewardVideoViewController.m; sourceTree = "<group>"; };
-		FB38E9272580778700E6D32C /* QYSRewardVideoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QYSRewardVideoViewController.xib; sourceTree = "<group>"; };
-		FB38E9282580778700E6D32C /* QYSRewardVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYSRewardVideoViewController.h; sourceTree = "<group>"; };
 		FB3B77B3257F6DF60010D139 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		FB3B77B4257F6DFB0010D139 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		FB5FC105257DD5F300A81E81 /* QYSMobSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QYSMobSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,19 +62,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE3A169F90D0D6151DF5BD48 /* Pods_QYSMobSDKDemo.framework in Frameworks */,
+				BCFB0DACD86FC833810DCB77 /* Pods_QYSMobSDKDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		86BE4BDA0183484FAC3AE2E7 /* Pods */ = {
+		EDC785C609906238CDF3B529 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				031BD096B4FEBD7595AAFB58 /* Pods-QYSMobSDKDemo.debug.xcconfig */,
-				C9680EF42452589C96B7092B /* Pods-QYSMobSDKDemo.release.xcconfig */,
+				F7A3EA3DB171D6BB0F93A489 /* Pods-QYSMobSDKDemo.debug.xcconfig */,
+				BCF91C2077012DC663CFADA3 /* Pods-QYSMobSDKDemo.release.xcconfig */,
 			);
+			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -108,7 +84,6 @@
 			children = (
 				FB38E90B2580778700E6D32C /* Tools */,
 				FB38E9112580778700E6D32C /* QYSBase */,
-				FB38E9142580778700E6D32C /* QYSAds */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -141,72 +116,10 @@
 			path = QYSBase;
 			sourceTree = "<group>";
 		};
-		FB38E9142580778700E6D32C /* QYSAds */ = {
-			isa = PBXGroup;
-			children = (
-				FB38E91D2580778700E6D32C /* SplashAd */,
-				FB38E9192580778700E6D32C /* BannerAd */,
-				FB38E9212580778700E6D32C /* InterstitialAd */,
-				FB38E9152580778700E6D32C /* NativeExpressAd */,
-				FB38E9252580778700E6D32C /* RewardVideoAd */,
-			);
-			path = QYSAds;
-			sourceTree = "<group>";
-		};
-		FB38E9152580778700E6D32C /* NativeExpressAd */ = {
-			isa = PBXGroup;
-			children = (
-				FB38E9172580778700E6D32C /* QYSNativeExpressViewController.h */,
-				FB38E9162580778700E6D32C /* QYSNativeExpressViewController.m */,
-				FB38E9182580778700E6D32C /* QYSNativeExpressViewController.xib */,
-			);
-			path = NativeExpressAd;
-			sourceTree = "<group>";
-		};
-		FB38E9192580778700E6D32C /* BannerAd */ = {
-			isa = PBXGroup;
-			children = (
-				FB38E91B2580778700E6D32C /* QYSBannerViewController.h */,
-				FB38E91C2580778700E6D32C /* QYSBannerViewController.m */,
-				FB38E91A2580778700E6D32C /* QYSBannerViewController.xib */,
-			);
-			path = BannerAd;
-			sourceTree = "<group>";
-		};
-		FB38E91D2580778700E6D32C /* SplashAd */ = {
-			isa = PBXGroup;
-			children = (
-				FB38E91F2580778700E6D32C /* QYSSplashViewController.h */,
-				FB38E91E2580778700E6D32C /* QYSSplashViewController.m */,
-				FB38E9202580778700E6D32C /* QYSSplashViewController.xib */,
-			);
-			path = SplashAd;
-			sourceTree = "<group>";
-		};
-		FB38E9212580778700E6D32C /* InterstitialAd */ = {
-			isa = PBXGroup;
-			children = (
-				FB38E9242580778700E6D32C /* QYSInterstitialViewController.h */,
-				FB38E9232580778700E6D32C /* QYSInterstitialViewController.m */,
-				FB38E9222580778700E6D32C /* QYSInterstitialViewController.xib */,
-			);
-			path = InterstitialAd;
-			sourceTree = "<group>";
-		};
-		FB38E9252580778700E6D32C /* RewardVideoAd */ = {
-			isa = PBXGroup;
-			children = (
-				FB38E9282580778700E6D32C /* QYSRewardVideoViewController.h */,
-				FB38E9262580778700E6D32C /* QYSRewardVideoViewController.m */,
-				FB38E9272580778700E6D32C /* QYSRewardVideoViewController.xib */,
-			);
-			path = RewardVideoAd;
-			sourceTree = "<group>";
-		};
 		FB38E93A25809ED000E6D32C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C279F62EB22A5703499C7A01 /* Pods_QYSMobSDKDemo.framework */,
+				44BA1ED24436DFEC33CC4DBA /* Pods_QYSMobSDKDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -217,7 +130,7 @@
 				FB5FC107257DD5F300A81E81 /* QYSMobSDKDemo */,
 				FB5FC106257DD5F300A81E81 /* Products */,
 				FB38E93A25809ED000E6D32C /* Frameworks */,
-				86BE4BDA0183484FAC3AE2E7 /* Pods */,
+				EDC785C609906238CDF3B529 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -254,12 +167,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB5FC11E257DD5F500A81E81 /* Build configuration list for PBXNativeTarget "QYSMobSDKDemo" */;
 			buildPhases = (
-				B35645B37F065814E9531407 /* [CP] Check Pods Manifest.lock */,
+				373A0F0EB2C18C77E167B1F3 /* [CP] Check Pods Manifest.lock */,
 				FB5FC101257DD5F300A81E81 /* Sources */,
 				FB5FC102257DD5F300A81E81 /* Frameworks */,
 				FB5FC103257DD5F300A81E81 /* Resources */,
 				FB88949A26C1308000DD8AA7 /* Embed Frameworks */,
-				B12B07F9B7BFCC5A3C8CC806 /* [CP] Embed Pods Frameworks */,
+				99961836F2746B61E03C5583 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -310,36 +223,14 @@
 			files = (
 				FB5FC118257DD5F500A81E81 /* LaunchScreen.storyboard in Resources */,
 				FB5FC115257DD5F500A81E81 /* Assets.xcassets in Resources */,
-				FB38E9322580778700E6D32C /* QYSInterstitialViewController.xib in Resources */,
 				FB5FC113257DD5F300A81E81 /* Main.storyboard in Resources */,
-				FB38E92E2580778700E6D32C /* QYSBannerViewController.xib in Resources */,
-				FB38E9312580778700E6D32C /* QYSSplashViewController.xib in Resources */,
-				FB38E92D2580778700E6D32C /* QYSNativeExpressViewController.xib in Resources */,
-				FB38E9352580778700E6D32C /* QYSRewardVideoViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		B12B07F9B7BFCC5A3C8CC806 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-QYSMobSDKDemo/Pods-QYSMobSDKDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-QYSMobSDKDemo/Pods-QYSMobSDKDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QYSMobSDKDemo/Pods-QYSMobSDKDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B35645B37F065814E9531407 /* [CP] Check Pods Manifest.lock */ = {
+		373A0F0EB2C18C77E167B1F3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -361,6 +252,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		99961836F2746B61E03C5583 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QYSMobSDKDemo/Pods-QYSMobSDKDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QYSMobSDKDemo/Pods-QYSMobSDKDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QYSMobSDKDemo/Pods-QYSMobSDKDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -368,16 +276,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB38E9332580778700E6D32C /* QYSInterstitialViewController.m in Sources */,
 				FB5FC10A257DD5F300A81E81 /* QYSAppDelegate.m in Sources */,
 				FB38E9292580778700E6D32C /* QYSToast.m in Sources */,
 				FB38E8FD2580750700E6D32C /* QYSAdViewController.m in Sources */,
-				FB38E92C2580778700E6D32C /* QYSNativeExpressViewController.m in Sources */,
-				FB38E9342580778700E6D32C /* QYSRewardVideoViewController.m in Sources */,
 				FB38E92B2580778700E6D32C /* QYSBaseNavigationViewController.m in Sources */,
-				FB38E9302580778700E6D32C /* QYSSplashViewController.m in Sources */,
 				FB38E92A2580778700E6D32C /* UIView+Toast.m in Sources */,
-				FB38E92F2580778700E6D32C /* QYSBannerViewController.m in Sources */,
 				FB5FC11B257DD5F500A81E81 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -522,9 +425,8 @@
 		};
 		FB5FC11F257DD5F500A81E81 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 031BD096B4FEBD7595AAFB58 /* Pods-QYSMobSDKDemo.debug.xcconfig */;
+			baseConfigurationReference = F7A3EA3DB171D6BB0F93A489 /* Pods-QYSMobSDKDemo.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES_ERROR;
@@ -557,9 +459,8 @@
 		};
 		FB5FC120257DD5F500A81E81 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9680EF42452589C96B7092B /* Pods-QYSMobSDKDemo.release.xcconfig */;
+			baseConfigurationReference = BCF91C2077012DC663CFADA3 /* Pods-QYSMobSDKDemo.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES_ERROR;

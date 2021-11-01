@@ -8,7 +8,7 @@
 
 #import "QYSAdViewController.h"
 #import <objc/runtime.h>
-#import <QYSMobSDK/QYSMobSDK.h>
+//#import <QYSMobSDK/QYSMobSDK.h>
 
 #import <AppTrackingTransparency/AppTrackingTransparency.h>
 #import <AdSupport/ASIdentifierManager.h>
