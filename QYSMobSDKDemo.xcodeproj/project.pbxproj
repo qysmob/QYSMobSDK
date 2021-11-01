@@ -3,13 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		BE3A169F90D0D6151DF5BD48 /* Pods_QYSMobSDKDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C279F62EB22A5703499C7A01 /* Pods_QYSMobSDKDemo.framework */; };
-		FB00FF942689DD9400539AEA /* QYSMobSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB00FF8D2689DD9400539AEA /* QYSMobSDK.framework */; };
-		FB00FF952689DD9400539AEA /* QYSBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FB00FF8E2689DD9400539AEA /* QYSBundle.bundle */; };
 		FB34A764259499E4005A2F22 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FB34A763259499E4005A2F22 /* libresolv.tbd */; };
 		FB38E8FD2580750700E6D32C /* QYSAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB38E8FC2580750700E6D32C /* QYSAdViewController.m */; };
 		FB38E9292580778700E6D32C /* QYSToast.m in Sources */ = {isa = PBXBuildFile; fileRef = FB38E90F2580778700E6D32C /* QYSToast.m */; };
@@ -57,7 +55,6 @@
 		FB5FC115257DD5F500A81E81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB5FC114257DD5F500A81E81 /* Assets.xcassets */; };
 		FB5FC118257DD5F500A81E81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5FC116257DD5F500A81E81 /* LaunchScreen.storyboard */; };
 		FB5FC11B257DD5F500A81E81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5FC11A257DD5F500A81E81 /* main.m */; };
-		FB82C6F126CE32A90056D63D /* KlevinAdSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB82C6F026CE32A90056D63D /* KlevinAdSDK.framework */; };
 		FB82C6F326CE34DF0056D63D /* AppTrackingTransparency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB82C6F226CE34DF0056D63D /* AppTrackingTransparency.framework */; };
 		FBD358F42680AF1C00E1D1D1 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD358F32680AF1C00E1D1D1 /* AddressBook.framework */; };
 		FBD358F62680AF2600E1D1D1 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD358F52680AF2600E1D1D1 /* AssetsLibrary.framework */; };
@@ -92,8 +89,6 @@
 		031BD096B4FEBD7595AAFB58 /* Pods-QYSMobSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QYSMobSDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-QYSMobSDKDemo/Pods-QYSMobSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		C279F62EB22A5703499C7A01 /* Pods_QYSMobSDKDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QYSMobSDKDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9680EF42452589C96B7092B /* Pods-QYSMobSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QYSMobSDKDemo.release.xcconfig"; path = "Target Support Files/Pods-QYSMobSDKDemo/Pods-QYSMobSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
-		FB00FF8D2689DD9400539AEA /* QYSMobSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QYSMobSDK.framework; sourceTree = "<group>"; };
-		FB00FF8E2689DD9400539AEA /* QYSBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = QYSBundle.bundle; sourceTree = "<group>"; };
 		FB34A763259499E4005A2F22 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
 		FB38E8FB2580750700E6D32C /* QYSAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYSAdViewController.h; sourceTree = "<group>"; };
 		FB38E8FC2580750700E6D32C /* QYSAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYSAdViewController.m; sourceTree = "<group>"; };
@@ -156,7 +151,6 @@
 		FB5FC117257DD5F500A81E81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB5FC119257DD5F500A81E81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB5FC11A257DD5F500A81E81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FB82C6F026CE32A90056D63D /* KlevinAdSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KlevinAdSDK.framework; sourceTree = "<group>"; };
 		FB82C6F226CE34DF0056D63D /* AppTrackingTransparency.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppTrackingTransparency.framework; path = System/Library/Frameworks/AppTrackingTransparency.framework; sourceTree = SDKROOT; };
 		FBB3FAA3257DF72800820C07 /* PrefixHeader_QYSMobDemo.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader_QYSMobDemo.pch; sourceTree = "<group>"; };
 		FBD358F32680AF1C00E1D1D1 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
@@ -198,7 +192,6 @@
 				FB38E95825809F4800E6D32C /* SafariServices.framework in Frameworks */,
 				FBD3590A2680AF9900E1D1D1 /* QuickLook.framework in Frameworks */,
 				FB38E95625809F4300E6D32C /* QuartzCore.framework in Frameworks */,
-				FB82C6F126CE32A90056D63D /* KlevinAdSDK.framework in Frameworks */,
 				FBD359082680AF8F00E1D1D1 /* Photos.framework in Frameworks */,
 				FBD359062680AF8A00E1D1D1 /* MessageUI.framework in Frameworks */,
 				FB38E95425809F3A00E6D32C /* MediaPlayer.framework in Frameworks */,
@@ -217,7 +210,6 @@
 				FBD358FC2680AF3B00E1D1D1 /* CoreData.framework in Frameworks */,
 				FBD358FA2680AF3600E1D1D1 /* AVKit.framework in Frameworks */,
 				FB38E94225809EFC00E6D32C /* AVFoundation.framework in Frameworks */,
-				FB00FF942689DD9400539AEA /* QYSMobSDK.framework in Frameworks */,
 				FBD358F82680AF2C00E1D1D1 /* AudioToolbox.framework in Frameworks */,
 				FBD358F62680AF2600E1D1D1 /* AssetsLibrary.framework in Frameworks */,
 				FB38E94025809EF400E6D32C /* AdSupport.framework in Frameworks */,
@@ -238,26 +230,7 @@
 				031BD096B4FEBD7595AAFB58 /* Pods-QYSMobSDKDemo.debug.xcconfig */,
 				C9680EF42452589C96B7092B /* Pods-QYSMobSDKDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		FB00FF632689DD9400539AEA /* QYSMob */ = {
-			isa = PBXGroup;
-			children = (
-				FB00FF642689DD9400539AEA /* ThirdSDK */,
-				FB00FF8D2689DD9400539AEA /* QYSMobSDK.framework */,
-				FB00FF8E2689DD9400539AEA /* QYSBundle.bundle */,
-			);
-			path = QYSMob;
-			sourceTree = "<group>";
-		};
-		FB00FF642689DD9400539AEA /* ThirdSDK */ = {
-			isa = PBXGroup;
-			children = (
-				FB82C6EF26CE32A90056D63D /* YKY */,
-			);
-			path = ThirdSDK;
 			sourceTree = "<group>";
 		};
 		FB38E90A2580778700E6D32C /* Classes */ = {
@@ -433,7 +406,6 @@
 		FB5FC107257DD5F300A81E81 /* QYSMobSDKDemo */ = {
 			isa = PBXGroup;
 			children = (
-				FB00FF632689DD9400539AEA /* QYSMob */,
 				FB38E90A2580778700E6D32C /* Classes */,
 				FB5FC108257DD5F300A81E81 /* QYSAppDelegate.h */,
 				FB5FC109257DD5F300A81E81 /* QYSAppDelegate.m */,
@@ -447,14 +419,6 @@
 				FB5FC11A257DD5F500A81E81 /* main.m */,
 			);
 			path = QYSMobSDKDemo;
-			sourceTree = "<group>";
-		};
-		FB82C6EF26CE32A90056D63D /* YKY */ = {
-			isa = PBXGroup;
-			children = (
-				FB82C6F026CE32A90056D63D /* KlevinAdSDK.framework */,
-			);
-			path = YKY;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -519,7 +483,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB5FC118257DD5F500A81E81 /* LaunchScreen.storyboard in Resources */,
-				FB00FF952689DD9400539AEA /* QYSBundle.bundle in Resources */,
 				FB5FC115257DD5F500A81E81 /* Assets.xcassets in Resources */,
 				FB38E9322580778700E6D32C /* QYSInterstitialViewController.xib in Resources */,
 				FB5FC113257DD5F300A81E81 /* Main.storyboard in Resources */,
@@ -742,11 +705,7 @@
 				DEVELOPMENT_TEAM = ACZGY7VC8W;
 				ENABLE_BITCODE = NO;
 				EXCLUDED_ARCHS = "EXCLUDED_ARCHS__EFFECTIVE_PLATFORM_SUFFIX_simulator__NATIVE_ARCH_64_BIT_x86_64=arm64 arm64e armv6 armv8 EXCLUDED_ARCHS=$(inherited) $(EXCLUDED_ARCHS__EFFECTIVE_PLATFORM_SUFFIX_$(EFFECTIVE_PLATFORM_SUFFIX)__NATIVE_ARCH_64_BIT_$(NATIVE_ARCH_64_BIT))";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/QYSMobSDKDemo/QYSMob",
-					"$(PROJECT_DIR)/QYSMobSDKDemo/QYSMob/ThirdSDK/YKY",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/$(PRODUCT_NAME)/PrefixHeader_QYSMobDemo.pch";
 				INFOPLIST_FILE = QYSMobSDKDemo/Info.plist;
@@ -780,11 +739,7 @@
 				DEVELOPMENT_TEAM = ACZGY7VC8W;
 				ENABLE_BITCODE = NO;
 				EXCLUDED_ARCHS = "EXCLUDED_ARCHS__EFFECTIVE_PLATFORM_SUFFIX_simulator__NATIVE_ARCH_64_BIT_x86_64=arm64 arm64e armv6 armv7 armv7s armv8 EXCLUDED_ARCHS=$(inherited) $(EXCLUDED_ARCHS__EFFECTIVE_PLATFORM_SUFFIX_$(EFFECTIVE_PLATFORM_SUFFIX)__NATIVE_ARCH_64_BIT_$(NATIVE_ARCH_64_BIT))";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/QYSMobSDKDemo/QYSMob",
-					"$(PROJECT_DIR)/QYSMobSDKDemo/QYSMob/ThirdSDK/YKY",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/$(PRODUCT_NAME)/PrefixHeader_QYSMobDemo.pch";
 				INFOPLIST_FILE = QYSMobSDKDemo/Info.plist;

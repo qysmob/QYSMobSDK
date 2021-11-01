@@ -16,7 +16,7 @@ s.platform = :ios, '9.0'
 # 后续调整为读取远端压缩包 tag 为版本号
 s.source       = { :git => "https://github.com/qysmob/QYSMobSDK.git", :tag => "v#{s.version}" }
 s.source_files = 'QYSMob/*'
-s.vendored_frameworks = 'QYSMob/QYSMobSDK.framework','QYSMob/ThirdSDK/YKY/*.framework'
+s.vendored_frameworks = 'QYSMob/QYSMobSDK.framework'
 s.resources = 'QYSMob/QYSBundle.bundle'
 
 # 需要的系统库
@@ -24,11 +24,7 @@ s.frameworks= 'AppTrackingTransparency','Accelerate','AddressBook','AdSupport','
 s.libraries = 'bz2','c++','c++abi','iconv','resolv.9','resolv','sqlite3','z','xml2'
 
 
-s.requires_arc = true,
-s.xcconfig = { "OTHER_LDFLAGS" => "-ObjC" }
-s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-s.pod_target_xcconfig = {  'VALID_ARCHS' => '$(ARCHS_STANDARD_64_BIT) armv7', 'ENABLE_BITCODE' => 'NO','DEFINES_MODULE' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
-
+s.requires_arc = true
 
 
 end
