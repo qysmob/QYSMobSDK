@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="QYSRewardVideoViewController">
+            <connections>
+                <outlet property="statusTextView" destination="Oqz-DO-S0E" id="Osx-tA-JxL"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W2C-12-YzC">
+                    <rect key="frame" x="30" y="209" width="100" height="30"/>
+                    <accessibility key="accessibilityConfiguration" identifier="load_ad_vertical_button"/>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="tp7-N3-ywX"/>
+                    </constraints>
+                    <state key="normal" title="拉取激励视频"/>
+                    <connections>
+                        <action selector="loadVerticalAdAction:" destination="-1" eventType="touchUpInside" id="P42-JV-auu"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wai-8m-fCP">
+                    <rect key="frame" x="284" y="209" width="100" height="30"/>
+                    <accessibility key="accessibilityConfiguration" identifier="show_ad_button"/>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="pCX-jG-03G"/>
+                    </constraints>
+                    <state key="normal" title="播放激励视频"/>
+                    <connections>
+                        <action selector="showAdAction:" destination="-1" eventType="touchUpInside" id="ZEU-cD-5Mw"/>
+                    </connections>
+                </button>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="激励视频状态" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Oqz-DO-S0E">
+                    <rect key="frame" x="20" y="269" width="374" height="563"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="textColor" red="0.13725490200000001" green="0.13725490200000001" blue="0.13725490200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="OO9-cA-lYM"/>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="W2C-12-YzC" firstAttribute="leading" secondItem="OO9-cA-lYM" secondAttribute="leading" constant="30" id="7FK-qb-W1g"/>
+                <constraint firstItem="OO9-cA-lYM" firstAttribute="trailing" secondItem="wai-8m-fCP" secondAttribute="trailing" constant="30" id="7pQ-EM-MrN"/>
+                <constraint firstItem="W2C-12-YzC" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" multiplier="0.5" id="KKa-Hz-Ukk"/>
+                <constraint firstItem="Oqz-DO-S0E" firstAttribute="top" secondItem="W2C-12-YzC" secondAttribute="bottom" constant="30" id="NLC-83-IQN"/>
+                <constraint firstItem="wai-8m-fCP" firstAttribute="centerY" secondItem="W2C-12-YzC" secondAttribute="centerY" id="V1g-QI-9Dp"/>
+                <constraint firstItem="Oqz-DO-S0E" firstAttribute="leading" secondItem="OO9-cA-lYM" secondAttribute="leading" constant="20" id="ZbD-3P-MBD"/>
+                <constraint firstItem="OO9-cA-lYM" firstAttribute="bottom" secondItem="Oqz-DO-S0E" secondAttribute="bottom" constant="30" id="eR3-he-CUr"/>
+                <constraint firstItem="OO9-cA-lYM" firstAttribute="trailing" secondItem="Oqz-DO-S0E" secondAttribute="trailing" constant="20" id="nqx-yu-jEU"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="135"/>
+        </view>
+    </objects>
+</document>

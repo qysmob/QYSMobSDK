@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2A54FAB0CC25A28A225D946 /* Pods_QYSMobSDKDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A38D5A40E36CACB0E38DE60 /* Pods_QYSMobSDKDemo.framework */; };
+		FB8C48F2273276DC002A5453 /* QYSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8C48F1273276DC002A5453 /* QYSAppDelegate.m */; };
+		FB8C48FB273276DC002A5453 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB8C48F9273276DC002A5453 /* Main.storyboard */; };
+		FB8C48FD273276E0002A5453 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB8C48FC273276E0002A5453 /* Assets.xcassets */; };
+		FB8C4900273276E0002A5453 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB8C48FE273276E0002A5453 /* LaunchScreen.storyboard */; };
+		FB8C4903273276E0002A5453 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8C4902273276E0002A5453 /* main.m */; };
+		FB8C492A2732773B002A5453 /* QYSAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8C490A2732773A002A5453 /* QYSAdViewController.m */; };
+		FB8C492B2732773B002A5453 /* QYSToast.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8C49102732773A002A5453 /* QYSToast.m */; };
+		FB8C492C2732773B002A5453 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8C49112732773A002A5453 /* UIView+Toast.m */; };
+		FB8C492D2732773B002A5453 /* QYSNativeExpressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8C49142732773A002A5453 /* QYSNativeExpressViewController.m */; };
+		FB8C492E2732773B002A5453 /* QYSNativeExpressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB8C49162732773A002A5453 /* QYSNativeExpressViewController.xib */; };
+		FB8C492F2732773B002A5453 /* QYSBannerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB8C49182732773A002A5453 /* QYSBannerViewController.xib */; };
+		FB8C49302732773B002A5453 /* QYSBannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8C491A2732773A002A5453 /* QYSBannerViewController.m */; };
+		FB8C49312732773B002A5453 /* QYSSplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8C491C2732773A002A5453 /* QYSSplashViewController.m */; };
+		FB8C49322732773B002A5453 /* QYSSplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB8C491E2732773A002A5453 /* QYSSplashViewController.xib */; };
+		FB8C49332732773B002A5453 /* QYSInterstitialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB8C49202732773A002A5453 /* QYSInterstitialViewController.xib */; };
+		FB8C49342732773B002A5453 /* QYSInterstitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8C49212732773A002A5453 /* QYSInterstitialViewController.m */; };
+		FB8C49352732773B002A5453 /* QYSRewardVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8C49242732773A002A5453 /* QYSRewardVideoViewController.m */; };
+		FB8C49362732773B002A5453 /* QYSRewardVideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB8C49252732773A002A5453 /* QYSRewardVideoViewController.xib */; };
+		FB8C49372732773B002A5453 /* QYSBaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8C49292732773A002A5453 /* QYSBaseNavigationViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03C4F08E5347ADC37BC3CD52 /* Pods-QYSMobSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QYSMobSDKDemo.release.xcconfig"; path = "Target Support Files/Pods-QYSMobSDKDemo/Pods-QYSMobSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
+		666421C700439622D35FEE0B /* Pods-QYSMobSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QYSMobSDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-QYSMobSDKDemo/Pods-QYSMobSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		8A38D5A40E36CACB0E38DE60 /* Pods_QYSMobSDKDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QYSMobSDKDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB8C48ED273276DC002A5453 /* QYSMobSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QYSMobSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB8C48F0273276DC002A5453 /* QYSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QYSAppDelegate.h; sourceTree = "<group>"; };
+		FB8C48F1273276DC002A5453 /* QYSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QYSAppDelegate.m; sourceTree = "<group>"; };
+		FB8C48FA273276DC002A5453 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB8C48FC273276E0002A5453 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB8C48FF273276E0002A5453 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB8C4901273276E0002A5453 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB8C4902273276E0002A5453 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB8C49092732773A002A5453 /* QYSAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYSAdViewController.h; sourceTree = "<group>"; };
+		FB8C490A2732773A002A5453 /* QYSAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYSAdViewController.m; sourceTree = "<group>"; };
+		FB8C490E2732773A002A5453 /* QYSToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYSToast.h; sourceTree = "<group>"; };
+		FB8C490F2732773A002A5453 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		FB8C49102732773A002A5453 /* QYSToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYSToast.m; sourceTree = "<group>"; };
+		FB8C49112732773A002A5453 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		FB8C49142732773A002A5453 /* QYSNativeExpressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYSNativeExpressViewController.m; sourceTree = "<group>"; };
+		FB8C49152732773A002A5453 /* QYSNativeExpressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYSNativeExpressViewController.h; sourceTree = "<group>"; };
+		FB8C49162732773A002A5453 /* QYSNativeExpressViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QYSNativeExpressViewController.xib; sourceTree = "<group>"; };
+		FB8C49182732773A002A5453 /* QYSBannerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QYSBannerViewController.xib; sourceTree = "<group>"; };
+		FB8C49192732773A002A5453 /* QYSBannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYSBannerViewController.h; sourceTree = "<group>"; };
+		FB8C491A2732773A002A5453 /* QYSBannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYSBannerViewController.m; sourceTree = "<group>"; };
+		FB8C491C2732773A002A5453 /* QYSSplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYSSplashViewController.m; sourceTree = "<group>"; };
+		FB8C491D2732773A002A5453 /* QYSSplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYSSplashViewController.h; sourceTree = "<group>"; };
+		FB8C491E2732773A002A5453 /* QYSSplashViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QYSSplashViewController.xib; sourceTree = "<group>"; };
+		FB8C49202732773A002A5453 /* QYSInterstitialViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QYSInterstitialViewController.xib; sourceTree = "<group>"; };
+		FB8C49212732773A002A5453 /* QYSInterstitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYSInterstitialViewController.m; sourceTree = "<group>"; };
+		FB8C49222732773A002A5453 /* QYSInterstitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYSInterstitialViewController.h; sourceTree = "<group>"; };
+		FB8C49242732773A002A5453 /* QYSRewardVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYSRewardVideoViewController.m; sourceTree = "<group>"; };
+		FB8C49252732773A002A5453 /* QYSRewardVideoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QYSRewardVideoViewController.xib; sourceTree = "<group>"; };
+		FB8C49262732773A002A5453 /* QYSRewardVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYSRewardVideoViewController.h; sourceTree = "<group>"; };
+		FB8C49282732773A002A5453 /* QYSBaseNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYSBaseNavigationViewController.h; sourceTree = "<group>"; };
+		FB8C49292732773A002A5453 /* QYSBaseNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYSBaseNavigationViewController.m; sourceTree = "<group>"; };
+		FB8C493827327783002A5453 /* PrefixHeader_QYSMobSDKDemo.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader_QYSMobSDKDemo.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB8C48EA273276DC002A5453 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2A54FAB0CC25A28A225D946 /* Pods_QYSMobSDKDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C9A1A4783123FF4390B819F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A38D5A40E36CACB0E38DE60 /* Pods_QYSMobSDKDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3BA55E0AF095005388BBAC9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				666421C700439622D35FEE0B /* Pods-QYSMobSDKDemo.debug.xcconfig */,
+				03C4F08E5347ADC37BC3CD52 /* Pods-QYSMobSDKDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FB8C48E4273276DC002A5453 = {
+			isa = PBXGroup;
+			children = (
+				FB8C48EF273276DC002A5453 /* QYSMobSDKDemo */,
+				FB8C48EE273276DC002A5453 /* Products */,
+				E3BA55E0AF095005388BBAC9 /* Pods */,
+				7C9A1A4783123FF4390B819F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FB8C48EE273276DC002A5453 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB8C48ED273276DC002A5453 /* QYSMobSDKDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB8C48EF273276DC002A5453 /* QYSMobSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FB8C490B2732773A002A5453 /* Classes */,
+				FB8C49092732773A002A5453 /* QYSAdViewController.h */,
+				FB8C490A2732773A002A5453 /* QYSAdViewController.m */,
+				FB8C48F0273276DC002A5453 /* QYSAppDelegate.h */,
+				FB8C48F1273276DC002A5453 /* QYSAppDelegate.m */,
+				FB8C493827327783002A5453 /* PrefixHeader_QYSMobSDKDemo.pch */,
+				FB8C48F9273276DC002A5453 /* Main.storyboard */,
+				FB8C48FC273276E0002A5453 /* Assets.xcassets */,
+				FB8C48FE273276E0002A5453 /* LaunchScreen.storyboard */,
+				FB8C4901273276E0002A5453 /* Info.plist */,
+				FB8C4902273276E0002A5453 /* main.m */,
+			);
+			path = QYSMobSDKDemo;
+			sourceTree = "<group>";
+		};
+		FB8C490B2732773A002A5453 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FB8C490C2732773A002A5453 /* Tools */,
+				FB8C49122732773A002A5453 /* QYSAds */,
+				FB8C49272732773A002A5453 /* QYSBase */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FB8C490C2732773A002A5453 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				FB8C490D2732773A002A5453 /* Toast */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		FB8C490D2732773A002A5453 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				FB8C490E2732773A002A5453 /* QYSToast.h */,
+				FB8C49102732773A002A5453 /* QYSToast.m */,
+				FB8C490F2732773A002A5453 /* UIView+Toast.h */,
+				FB8C49112732773A002A5453 /* UIView+Toast.m */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		FB8C49122732773A002A5453 /* QYSAds */ = {
+			isa = PBXGroup;
+			children = (
+				FB8C49172732773A002A5453 /* BannerAd */,
+				FB8C491F2732773A002A5453 /* InterstitialAd */,
+				FB8C49132732773A002A5453 /* NativeExpressAd */,
+				FB8C49232732773A002A5453 /* RewardVideoAd */,
+				FB8C491B2732773A002A5453 /* SplashAd */,
+			);
+			path = QYSAds;
+			sourceTree = "<group>";
+		};
+		FB8C49132732773A002A5453 /* NativeExpressAd */ = {
+			isa = PBXGroup;
+			children = (
+				FB8C49152732773A002A5453 /* QYSNativeExpressViewController.h */,
+				FB8C49142732773A002A5453 /* QYSNativeExpressViewController.m */,
+				FB8C49162732773A002A5453 /* QYSNativeExpressViewController.xib */,
+			);
+			path = NativeExpressAd;
+			sourceTree = "<group>";
+		};
+		FB8C49172732773A002A5453 /* BannerAd */ = {
+			isa = PBXGroup;
+			children = (
+				FB8C49192732773A002A5453 /* QYSBannerViewController.h */,
+				FB8C491A2732773A002A5453 /* QYSBannerViewController.m */,
+				FB8C49182732773A002A5453 /* QYSBannerViewController.xib */,
+			);
+			path = BannerAd;
+			sourceTree = "<group>";
+		};
+		FB8C491B2732773A002A5453 /* SplashAd */ = {
+			isa = PBXGroup;
+			children = (
+				FB8C491D2732773A002A5453 /* QYSSplashViewController.h */,
+				FB8C491C2732773A002A5453 /* QYSSplashViewController.m */,
+				FB8C491E2732773A002A5453 /* QYSSplashViewController.xib */,
+			);
+			path = SplashAd;
+			sourceTree = "<group>";
+		};
+		FB8C491F2732773A002A5453 /* InterstitialAd */ = {
+			isa = PBXGroup;
+			children = (
+				FB8C49222732773A002A5453 /* QYSInterstitialViewController.h */,
+				FB8C49212732773A002A5453 /* QYSInterstitialViewController.m */,
+				FB8C49202732773A002A5453 /* QYSInterstitialViewController.xib */,
+			);
+			path = InterstitialAd;
+			sourceTree = "<group>";
+		};
+		FB8C49232732773A002A5453 /* RewardVideoAd */ = {
+			isa = PBXGroup;
+			children = (
+				FB8C49262732773A002A5453 /* QYSRewardVideoViewController.h */,
+				FB8C49242732773A002A5453 /* QYSRewardVideoViewController.m */,
+				FB8C49252732773A002A5453 /* QYSRewardVideoViewController.xib */,
+			);
+			path = RewardVideoAd;
+			sourceTree = "<group>";
+		};
+		FB8C49272732773A002A5453 /* QYSBase */ = {
+			isa = PBXGroup;
+			children = (
+				FB8C49282732773A002A5453 /* QYSBaseNavigationViewController.h */,
+				FB8C49292732773A002A5453 /* QYSBaseNavigationViewController.m */,
+			);
+			path = QYSBase;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB8C48EC273276DC002A5453 /* QYSMobSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB8C4906273276E0002A5453 /* Build configuration list for PBXNativeTarget "QYSMobSDKDemo" */;
+			buildPhases = (
+				E21CACE2B63610866A01F568 /* [CP] Check Pods Manifest.lock */,
+				FB8C48E9273276DC002A5453 /* Sources */,
+				FB8C48EA273276DC002A5453 /* Frameworks */,
+				FB8C48EB273276DC002A5453 /* Resources */,
+				6970C15CD87389DA131B3EA2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QYSMobSDKDemo;
+			productName = QYSMobSDKDemo;
+			productReference = FB8C48ED273276DC002A5453 /* QYSMobSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB8C48E5273276DC002A5453 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					FB8C48EC273276DC002A5453 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = FB8C48E8273276DC002A5453 /* Build configuration list for PBXProject "QYSMobSDKDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB8C48E4273276DC002A5453;
+			productRefGroup = FB8C48EE273276DC002A5453 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB8C48EC273276DC002A5453 /* QYSMobSDKDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB8C48EB273276DC002A5453 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8C492E2732773B002A5453 /* QYSNativeExpressViewController.xib in Resources */,
+				FB8C49332732773B002A5453 /* QYSInterstitialViewController.xib in Resources */,
+				FB8C49362732773B002A5453 /* QYSRewardVideoViewController.xib in Resources */,
+				FB8C49322732773B002A5453 /* QYSSplashViewController.xib in Resources */,
+				FB8C4900273276E0002A5453 /* LaunchScreen.storyboard in Resources */,
+				FB8C48FD273276E0002A5453 /* Assets.xcassets in Resources */,
+				FB8C48FB273276DC002A5453 /* Main.storyboard in Resources */,
+				FB8C492F2732773B002A5453 /* QYSBannerViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6970C15CD87389DA131B3EA2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QYSMobSDKDemo/Pods-QYSMobSDKDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QYSMobSDKDemo/Pods-QYSMobSDKDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QYSMobSDKDemo/Pods-QYSMobSDKDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E21CACE2B63610866A01F568 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QYSMobSDKDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB8C48E9273276DC002A5453 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8C49342732773B002A5453 /* QYSInterstitialViewController.m in Sources */,
+				FB8C492C2732773B002A5453 /* UIView+Toast.m in Sources */,
+				FB8C492B2732773B002A5453 /* QYSToast.m in Sources */,
+				FB8C492D2732773B002A5453 /* QYSNativeExpressViewController.m in Sources */,
+				FB8C49352732773B002A5453 /* QYSRewardVideoViewController.m in Sources */,
+				FB8C492A2732773B002A5453 /* QYSAdViewController.m in Sources */,
+				FB8C49312732773B002A5453 /* QYSSplashViewController.m in Sources */,
+				FB8C48F2273276DC002A5453 /* QYSAppDelegate.m in Sources */,
+				FB8C49372732773B002A5453 /* QYSBaseNavigationViewController.m in Sources */,
+				FB8C49302732773B002A5453 /* QYSBannerViewController.m in Sources */,
+				FB8C4903273276E0002A5453 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FB8C48F9273276DC002A5453 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB8C48FA273276DC002A5453 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB8C48FE273276E0002A5453 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB8C48FF273276E0002A5453 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB8C4904273276E0002A5453 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FB8C4905273276E0002A5453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB8C4907273276E0002A5453 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 666421C700439622D35FEE0B /* Pods-QYSMobSDKDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ACZGY7VC8W;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/$(PRODUCT_NAME)/PrefixHeader_QYSMobSDKDemo.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QYSMobSDKDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "指尖天气";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "请求获取手机位置，以便精确定位";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "请求获取手机位置，以便精确定位";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "请求获取手机位置，以便精确定位";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "获取设备信息用以精准推送您喜欢的内容";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quys.FingertipWeather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB8C4908273276E0002A5453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03C4F08E5347ADC37BC3CD52 /* Pods-QYSMobSDKDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ACZGY7VC8W;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/$(PRODUCT_NAME)/PrefixHeader_QYSMobSDKDemo.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QYSMobSDKDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "指尖天气";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "请求获取手机位置，以便精确定位";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "请求获取手机位置，以便精确定位";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "请求获取手机位置，以便精确定位";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "获取设备信息用以精准推送您喜欢的内容";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quys.FingertipWeather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB8C48E8273276DC002A5453 /* Build configuration list for PBXProject "QYSMobSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB8C4904273276E0002A5453 /* Debug */,
+				FB8C4905273276E0002A5453 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB8C4906273276E0002A5453 /* Build configuration list for PBXNativeTarget "QYSMobSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB8C4907273276E0002A5453 /* Debug */,
+				FB8C4908273276E0002A5453 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB8C48E5273276DC002A5453 /* Project object */;
+}
